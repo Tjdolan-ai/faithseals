@@ -54,5 +54,5 @@ if ENV['MULTITENANT'] != 'true' || ENV['DEMO'] == 'true'
   require_relative '../lib/puma/plugin/sidekiq_embed'
 
   plugin :sidekiq_embed
-  plugin :redis_server
+  #plugin :redis_server
 end

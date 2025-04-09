@@ -1,0 +1,169 @@
+<!-- FaithSeal Header -->
+<style>
+  .faithseal-header {
+    background-color: #0F172A;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+  }
+  
+  .faithseal-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .faithseal-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faithseal-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .faithseal-logo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .faithseal-logo span {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .faithseal-nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .faithseal-nav a {
+    color: #D1D5DB;
+    text-decoration: none;
+  }
+  
+  .faithseal-nav a:hover {
+    color: #F4C430;
+  }
+  
+  .faithseal-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .faithseal-signin {
+    color: #D1D5DB;
+    text-decoration: none;
+  }
+  
+  .faithseal-signin:hover {
+    color: #F4C430;
+  }
+  
+  .faithseal-upgrade {
+    background-color: #5A4E9D;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+  }
+  
+  .faithseal-upgrade:hover {
+    background-color: #4A3E8D;
+  }
+  
+  .faithseal-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    color: #D1D5DB;
+    cursor: pointer;
+  }
+  
+  .faithseal-mobile-menu {
+    display: none;
+    padding-top: 1rem;
+  }
+  
+  .faithseal-mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .faithseal-mobile-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-top: 0.75rem;
+    border-top: 1px solid #374151;
+  }
+  
+  /* Media Query */
+  @media (max-width: 768px) {
+    .faithseal-nav, .faithseal-buttons {
+      display: none;
+    }
+    
+    .faithseal-menu-button {
+      display: block;
+    }
+    
+    .faithseal-mobile-menu.active {
+      display: block;
+    }
+  }
+</style>
+
+<header class="faithseal-header">
+  <div class="faithseal-container">
+    <div class="faithseal-flex">
+      <a href="/" class="faithseal-logo">
+        <img src="/images/faithseal.png" alt="FaithSeal">
+        <span>FaithSeal</span>
+      </a>
+      
+      <nav class="faithseal-nav">
+        <a href="/">Home</a>
+        <a href="/features">Features</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      
+      <button class="faithseal-menu-button" onclick="toggleMobileMenu()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      
+      <div class="faithseal-buttons">
+        <a href="/sign_in" class="faithseal-signin">Sign In</a>
+        <a href="/upgrade" class="faithseal-upgrade">Upgrade</a>
+      </div>
+    </div>
+    
+    <div id="faithseal-mobile-menu" class="faithseal-mobile-menu">
+      <div class="faithseal-mobile-nav">
+        <a href="/">Home</a>
+        <a href="/features">Features</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="faithseal-mobile-buttons">
+        <a href="/sign_in" class="faithseal-signin">Sign In</a>
+        <a href="/upgrade" class="faithseal-upgrade">Upgrade</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  function toggleMobileMenu() {
+    var menu = document.getElementById('faithseal-mobile-menu');
+    menu.classList.toggle('active');
+  }
+</script>

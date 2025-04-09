@@ -39,8 +39,8 @@ class ApplicationController < ActionController::Base
   end
 
   def default_url_options
-    if request.domain == 'docuseal.com'
-      return { host: 'docuseal.com', protocol: ENV['FORCE_SSL'].present? ? 'https' : 'http' }
+    if request.domain == 'faithseal.com'
+      return { host: 'faithseal.com', protocol: ENV['FORCE_SSL'].present? ? 'https' : 'http' }
     end
 
     Docuseal.default_url_options
@@ -111,7 +111,7 @@ class ApplicationController < ActionController::Base
   end
 
   def maybe_redirect_com
-    return if request.domain != 'docuseal.co'
+    return if request.domain != 'faithseal.co'
 
     redirect_to request.url.gsub('.co/', '.com/'), allow_other_host: true, status: :moved_permanently
   end

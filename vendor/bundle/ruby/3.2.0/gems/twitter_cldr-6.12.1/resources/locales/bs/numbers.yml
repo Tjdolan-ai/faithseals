@@ -1,0 +1,1520 @@
+--- 
+:bs: 
+  :numbers: 
+    :default_number_systems: 
+      :alternatives: {}
+      :default: latn
+    :formats: 
+      :currency: 
+        :adlm: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :ahom: :numbers.formats.currency.latn
+        :arab: 
+          :default: "#,##0.00 ¤"
+        :arabext: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :bali: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :beng: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :bhks: :numbers.formats.currency.latn
+        :brah: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :cakm: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :cham: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :default: :numbers.formats.currency.latn
+        :deva: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :diak: :numbers.formats.currency.latn
+        :fullwide: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :gong: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :gonm: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :gujr: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :guru: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :hanidec: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :hmng: :numbers.formats.currency.latn
+        :hmnp: :numbers.formats.currency.latn
+        :java: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :kali: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :kawi: :numbers.formats.currency.latn
+        :khmr: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :knda: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :lana: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :lanatham: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :laoo: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :latn: 
+          :default: "#,##0.00 ¤"
+          :short: 
+            ? !ruby/symbol "1000"
+            : 
+              :few: 0 hilj'.' ¤
+              :one: 0 hilj'.' ¤
+              :other: 0 hilj'.' ¤
+            ? !ruby/symbol "10000"
+            : 
+              :few: 00 hilj'.' ¤
+              :one: 00 hilj'.' ¤
+              :other: 00 hilj'.' ¤
+            ? !ruby/symbol "100000"
+            : 
+              :few: 000 hilj'.' ¤
+              :one: 000 hilj'.' ¤
+              :other: 000 hilj'.' ¤
+            ? !ruby/symbol "1000000"
+            : 
+              :few: 0 mil'.' ¤
+              :one: 0 mil'.' ¤
+              :other: 0 mil'.' ¤
+            ? !ruby/symbol "10000000"
+            : 
+              :few: 00 mil'.' ¤
+              :one: 00 mil'.' ¤
+              :other: 00 mil'.' ¤
+            ? !ruby/symbol "100000000"
+            : 
+              :few: 000 mil'.' ¤
+              :one: 000 mil'.' ¤
+              :other: 000 mil'.' ¤
+            ? !ruby/symbol "1000000000"
+            : 
+              :few: 0 mlr'.' ¤
+              :one: 0 mlr'.' ¤
+              :other: 0 mlr'.' ¤
+            ? !ruby/symbol "10000000000"
+            : 
+              :few: 00 mlr'.' ¤
+              :one: 00 mlr'.' ¤
+              :other: 00 mlr'.' ¤
+            ? !ruby/symbol "100000000000"
+            : 
+              :few: 000 mlr'.' ¤
+              :one: 000 mlr'.' ¤
+              :other: 000 mlr'.' ¤
+            ? !ruby/symbol "1000000000000"
+            : 
+              :few: 0 bil'.' ¤
+              :one: 0 bil'.' ¤
+              :other: 0 bil'.' ¤
+            ? !ruby/symbol "10000000000000"
+            : 
+              :few: 00 bil'.' ¤
+              :one: 00 bil'.' ¤
+              :other: 00 bil'.' ¤
+            ? !ruby/symbol "100000000000000"
+            : 
+              :few: 000 bil'.' ¤
+              :one: 000 bil'.' ¤
+              :other: 000 bil'.' ¤
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :lepc: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :limb: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :mathbold: :numbers.formats.currency.latn
+        :mathdbl: :numbers.formats.currency.latn
+        :mathmono: :numbers.formats.currency.latn
+        :mathsanb: :numbers.formats.currency.latn
+        :mathsans: :numbers.formats.currency.latn
+        :mlym: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :modi: :numbers.formats.currency.latn
+        :mong: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :mroo: :numbers.formats.currency.latn
+        :mtei: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :mymr: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :mymrshan: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :mymrtlng: :numbers.formats.currency.latn
+        :nagm: :numbers.formats.currency.latn
+        :newa: :numbers.formats.currency.latn
+        :nkoo: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :olck: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :orya: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :osma: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :rohg: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :saur: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :segment: :numbers.formats.currency.latn
+        :shrd: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :sind: :numbers.formats.currency.latn
+        :sinh: :numbers.formats.currency.latn
+        :sora: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :sund: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :takr: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :talu: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :tamldec: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :telu: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :thai: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :tibt: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :tirh: :numbers.formats.currency.latn
+        :tnsa: :numbers.formats.currency.latn
+        :vaii: 
+          :default: "#,##0.00 ¤"
+          :unit: 
+            :few: "{0} {1}"
+            :one: "{0} {1}"
+            :other: "{0} {1}"
+        :wara: :numbers.formats.currency.latn
+        :wcho: :numbers.formats.currency.latn
+      :decimal: 
+        :adlm: 
+          :default: "#,##0.###"
+        :ahom: :numbers.formats.decimal.latn
+        :arab: 
+          :default: "#,##0.###"
+        :arabext: 
+          :default: "#,##0.###"
+        :bali: 
+          :default: "#,##0.###"
+        :beng: 
+          :default: "#,##0.###"
+        :bhks: :numbers.formats.decimal.latn
+        :brah: 
+          :default: "#,##0.###"
+        :cakm: 
+          :default: "#,##0.###"
+        :cham: 
+          :default: "#,##0.###"
+        :default: :numbers.formats.decimal.latn
+        :deva: 
+          :default: "#,##0.###"
+        :diak: :numbers.formats.decimal.latn
+        :fullwide: 
+          :default: "#,##0.###"
+        :gong: 
+          :default: "#,##0.###"
+        :gonm: 
+          :default: "#,##0.###"
+        :gujr: 
+          :default: "#,##0.###"
+        :guru: 
+          :default: "#,##0.###"
+        :hanidec: 
+          :default: "#,##0.###"
+        :hmng: :numbers.formats.decimal.latn
+        :hmnp: :numbers.formats.decimal.latn
+        :java: 
+          :default: "#,##0.###"
+        :kali: 
+          :default: "#,##0.###"
+        :kawi: :numbers.formats.decimal.latn
+        :khmr: 
+          :default: "#,##0.###"
+        :knda: 
+          :default: "#,##0.###"
+        :lana: 
+          :default: "#,##0.###"
+        :lanatham: 
+          :default: "#,##0.###"
+        :laoo: 
+          :default: "#,##0.###"
+        :latn: 
+          :default: "#,##0.###"
+          :long: 
+            ? !ruby/symbol "1000"
+            : 
+              :few: "0 hiljade"
+              :one: "0 hiljada"
+              :other: "0 hiljada"
+            ? !ruby/symbol "10000"
+            : 
+              :few: "00 hiljade"
+              :one: "00 hiljada"
+              :other: "00 hiljada"
+            ? !ruby/symbol "100000"
+            : 
+              :few: "000 hiljade"
+              :one: "000 hiljada"
+              :other: "000 hiljada"
+            ? !ruby/symbol "1000000"
+            : 
+              :few: "0 miliona"
+              :one: "0 milion"
+              :other: "0 miliona"
+            ? !ruby/symbol "10000000"
+            : 
+              :few: "00 miliona"
+              :one: "00 milion"
+              :other: "00 miliona"
+            ? !ruby/symbol "100000000"
+            : 
+              :few: "000 miliona"
+              :one: "000 milion"
+              :other: "000 miliona"
+            ? !ruby/symbol "1000000000"
+            : 
+              :few: "0 milijarde"
+              :one: "0 milijarda"
+              :other: "0 milijardi"
+            ? !ruby/symbol "10000000000"
+            : 
+              :few: "00 milijarde"
+              :one: "00 milijarda"
+              :other: "00 milijardi"
+            ? !ruby/symbol "100000000000"
+            : 
+              :few: "000 milijarde"
+              :one: "000 milijarda"
+              :other: "000 milijardi"
+            ? !ruby/symbol "1000000000000"
+            : 
+              :few: "0 biliona"
+              :one: "0 bilion"
+              :other: "0 biliona"
+            ? !ruby/symbol "10000000000000"
+            : 
+              :few: "00 biliona"
+              :one: "00 bilion"
+              :other: "00 biliona"
+            ? !ruby/symbol "100000000000000"
+            : 
+              :few: "000 biliona"
+              :one: "000 bilion"
+              :other: "000 biliona"
+          :short: 
+            ? !ruby/symbol "1000"
+            : 
+              :few: 0 hilj'.'
+              :one: 0 hilj'.'
+              :other: 0 hilj'.'
+            ? !ruby/symbol "10000"
+            : 
+              :few: 00 hilj'.'
+              :one: 00 hilj'.'
+              :other: 00 hilj'.'
+            ? !ruby/symbol "100000"
+            : 
+              :few: 000 hilj'.'
+              :one: 000 hilj'.'
+              :other: 000 hilj'.'
+            ? !ruby/symbol "1000000"
+            : 
+              :few: 0 mil'.'
+              :one: 0 mil'.'
+              :other: 0 mil'.'
+            ? !ruby/symbol "10000000"
+            : 
+              :few: 00 mil'.'
+              :one: 00 mil'.'
+              :other: 00 mil'.'
+            ? !ruby/symbol "100000000"
+            : 
+              :few: 000 mil'.'
+              :one: 000 mil'.'
+              :other: 000 mil'.'
+            ? !ruby/symbol "1000000000"
+            : 
+              :few: 0 mlr'.'
+              :one: 0 mlr'.'
+              :other: 0 mlr'.'
+            ? !ruby/symbol "10000000000"
+            : 
+              :few: 00 mlr'.'
+              :one: 00 mlr'.'
+              :other: 00 mlr'.'
+            ? !ruby/symbol "100000000000"
+            : 
+              :few: 000 mlr'.'
+              :one: 000 mlr'.'
+              :other: 000 mlr'.'
+            ? !ruby/symbol "1000000000000"
+            : 
+              :few: 0 bil'.'
+              :one: 0 bil'.'
+              :other: 0 bil'.'
+            ? !ruby/symbol "10000000000000"
+            : 
+              :few: 00 bil'.'
+              :one: 00 bil'.'
+              :other: 00 bil'.'
+            ? !ruby/symbol "100000000000000"
+            : 
+              :few: 000 bil'.'
+              :one: 000 bil'.'
+              :other: 000 bil'.'
+        :lepc: 
+          :default: "#,##0.###"
+        :limb: 
+          :default: "#,##0.###"
+        :mathbold: :numbers.formats.decimal.latn
+        :mathdbl: :numbers.formats.decimal.latn
+        :mathmono: :numbers.formats.decimal.latn
+        :mathsanb: :numbers.formats.decimal.latn
+        :mathsans: :numbers.formats.decimal.latn
+        :mlym: 
+          :default: "#,##0.###"
+        :modi: :numbers.formats.decimal.latn
+        :mong: 
+          :default: "#,##0.###"
+        :mroo: :numbers.formats.decimal.latn
+        :mtei: 
+          :default: "#,##0.###"
+        :mymr: 
+          :default: "#,##0.###"
+        :mymrshan: 
+          :default: "#,##0.###"
+        :mymrtlng: :numbers.formats.decimal.latn
+        :nagm: :numbers.formats.decimal.latn
+        :newa: :numbers.formats.decimal.latn
+        :nkoo: 
+          :default: "#,##0.###"
+        :olck: 
+          :default: "#,##0.###"
+        :orya: 
+          :default: "#,##0.###"
+        :osma: 
+          :default: "#,##0.###"
+        :rohg: 
+          :default: "#,##0.###"
+        :saur: 
+          :default: "#,##0.###"
+        :segment: :numbers.formats.decimal.latn
+        :shrd: 
+          :default: "#,##0.###"
+        :sind: :numbers.formats.decimal.latn
+        :sinh: :numbers.formats.decimal.latn
+        :sora: 
+          :default: "#,##0.###"
+        :sund: 
+          :default: "#,##0.###"
+        :takr: 
+          :default: "#,##0.###"
+        :talu: 
+          :default: "#,##0.###"
+        :tamldec: 
+          :default: "#,##0.###"
+        :telu: 
+          :default: "#,##0.###"
+        :thai: 
+          :default: "#,##0.###"
+        :tibt: 
+          :default: "#,##0.###"
+        :tirh: :numbers.formats.decimal.latn
+        :tnsa: :numbers.formats.decimal.latn
+        :vaii: 
+          :default: "#,##0.###"
+        :wara: :numbers.formats.decimal.latn
+        :wcho: :numbers.formats.decimal.latn
+      :percent: 
+        :adlm: 
+          :default: "#,##0 %"
+        :ahom: :numbers.formats.percent.latn
+        :arab: 
+          :default: "#,##0%"
+        :arabext: 
+          :default: "#,##0 %"
+        :bali: 
+          :default: "#,##0 %"
+        :beng: 
+          :default: "#,##0 %"
+        :bhks: :numbers.formats.percent.latn
+        :brah: 
+          :default: "#,##0 %"
+        :cakm: 
+          :default: "#,##0 %"
+        :cham: 
+          :default: "#,##0 %"
+        :default: :numbers.formats.percent.latn
+        :deva: 
+          :default: "#,##0 %"
+        :diak: :numbers.formats.percent.latn
+        :fullwide: 
+          :default: "#,##0 %"
+        :gong: 
+          :default: "#,##0 %"
+        :gonm: 
+          :default: "#,##0 %"
+        :gujr: 
+          :default: "#,##0 %"
+        :guru: 
+          :default: "#,##0 %"
+        :hanidec: 
+          :default: "#,##0 %"
+        :hmng: :numbers.formats.percent.latn
+        :hmnp: :numbers.formats.percent.latn
+        :java: 
+          :default: "#,##0 %"
+        :kali: 
+          :default: "#,##0 %"
+        :kawi: :numbers.formats.percent.latn
+        :khmr: 
+          :default: "#,##0 %"
+        :knda: 
+          :default: "#,##0 %"
+        :lana: 
+          :default: "#,##0 %"
+        :lanatham: 
+          :default: "#,##0 %"
+        :laoo: 
+          :default: "#,##0 %"
+        :latn: 
+          :default: "#,##0 %"
+        :lepc: 
+          :default: "#,##0 %"
+        :limb: 
+          :default: "#,##0 %"
+        :mathbold: :numbers.formats.percent.latn
+        :mathdbl: :numbers.formats.percent.latn
+        :mathmono: :numbers.formats.percent.latn
+        :mathsanb: :numbers.formats.percent.latn
+        :mathsans: :numbers.formats.percent.latn
+        :mlym: 
+          :default: "#,##0 %"
+        :modi: :numbers.formats.percent.latn
+        :mong: 
+          :default: "#,##0 %"
+        :mroo: :numbers.formats.percent.latn
+        :mtei: 
+          :default: "#,##0 %"
+        :mymr: 
+          :default: "#,##0 %"
+        :mymrshan: 
+          :default: "#,##0 %"
+        :mymrtlng: :numbers.formats.percent.latn
+        :nagm: :numbers.formats.percent.latn
+        :newa: :numbers.formats.percent.latn
+        :nkoo: 
+          :default: "#,##0 %"
+        :olck: 
+          :default: "#,##0 %"
+        :orya: 
+          :default: "#,##0 %"
+        :osma: 
+          :default: "#,##0 %"
+        :rohg: 
+          :default: "#,##0 %"
+        :saur: 
+          :default: "#,##0 %"
+        :segment: :numbers.formats.percent.latn
+        :shrd: 
+          :default: "#,##0 %"
+        :sind: :numbers.formats.percent.latn
+        :sinh: :numbers.formats.percent.latn
+        :sora: 
+          :default: "#,##0 %"
+        :sund: 
+          :default: "#,##0 %"
+        :takr: 
+          :default: "#,##0 %"
+        :talu: 
+          :default: "#,##0 %"
+        :tamldec: 
+          :default: "#,##0 %"
+        :telu: 
+          :default: "#,##0 %"
+        :thai: 
+          :default: "#,##0 %"
+        :tibt: 
+          :default: "#,##0 %"
+        :tirh: :numbers.formats.percent.latn
+        :tnsa: :numbers.formats.percent.latn
+        :vaii: 
+          :default: "#,##0 %"
+        :wara: :numbers.formats.percent.latn
+        :wcho: :numbers.formats.percent.latn
+      :scientific: 
+        :adlm: 
+          :default: "#E0"
+        :ahom: :numbers.formats.scientific.latn
+        :arab: 
+          :default: "#E0"
+        :arabext: 
+          :default: "#E0"
+        :bali: 
+          :default: "#E0"
+        :beng: 
+          :default: "#E0"
+        :bhks: :numbers.formats.scientific.latn
+        :brah: 
+          :default: "#E0"
+        :cakm: 
+          :default: "#E0"
+        :cham: 
+          :default: "#E0"
+        :default: :numbers.formats.scientific.latn
+        :deva: 
+          :default: "#E0"
+        :diak: :numbers.formats.scientific.latn
+        :fullwide: 
+          :default: "#E0"
+        :gong: 
+          :default: "#E0"
+        :gonm: 
+          :default: "#E0"
+        :gujr: 
+          :default: "#E0"
+        :guru: 
+          :default: "#E0"
+        :hanidec: 
+          :default: "#E0"
+        :hmng: :numbers.formats.scientific.latn
+        :hmnp: :numbers.formats.scientific.latn
+        :java: 
+          :default: "#E0"
+        :kali: 
+          :default: "#E0"
+        :kawi: :numbers.formats.scientific.latn
+        :khmr: 
+          :default: "#E0"
+        :knda: 
+          :default: "#E0"
+        :lana: 
+          :default: "#E0"
+        :lanatham: 
+          :default: "#E0"
+        :laoo: 
+          :default: "#E0"
+        :latn: 
+          :default: "#E0"
+        :lepc: 
+          :default: "#E0"
+        :limb: 
+          :default: "#E0"
+        :mathbold: :numbers.formats.scientific.latn
+        :mathdbl: :numbers.formats.scientific.latn
+        :mathmono: :numbers.formats.scientific.latn
+        :mathsanb: :numbers.formats.scientific.latn
+        :mathsans: :numbers.formats.scientific.latn
+        :mlym: 
+          :default: "#E0"
+        :modi: :numbers.formats.scientific.latn
+        :mong: 
+          :default: "#E0"
+        :mroo: :numbers.formats.scientific.latn
+        :mtei: 
+          :default: "#E0"
+        :mymr: 
+          :default: "#E0"
+        :mymrshan: 
+          :default: "#E0"
+        :mymrtlng: :numbers.formats.scientific.latn
+        :nagm: :numbers.formats.scientific.latn
+        :newa: :numbers.formats.scientific.latn
+        :nkoo: 
+          :default: "#E0"
+        :olck: 
+          :default: "#E0"
+        :orya: 
+          :default: "#E0"
+        :osma: 
+          :default: "#E0"
+        :rohg: 
+          :default: "#E0"
+        :saur: 
+          :default: "#E0"
+        :segment: :numbers.formats.scientific.latn
+        :shrd: 
+          :default: "#E0"
+        :sind: :numbers.formats.scientific.latn
+        :sinh: :numbers.formats.scientific.latn
+        :sora: 
+          :default: "#E0"
+        :sund: 
+          :default: "#E0"
+        :takr: 
+          :default: "#E0"
+        :talu: 
+          :default: "#E0"
+        :tamldec: 
+          :default: "#E0"
+        :telu: 
+          :default: "#E0"
+        :thai: 
+          :default: "#E0"
+        :tibt: 
+          :default: "#E0"
+        :tirh: :numbers.formats.scientific.latn
+        :tnsa: :numbers.formats.scientific.latn
+        :vaii: 
+          :default: "#E0"
+        :wara: :numbers.formats.scientific.latn
+        :wcho: :numbers.formats.scientific.latn
+    :symbols: 
+      :adlm: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :ahom: :numbers.symbols.latn
+      :arab: 
+        :approximately_sign: "~"
+        :decimal: ٫
+        :exponential: اس
+        :group: ٬
+        :infinity: ∞
+        :list: ؛
+        :minus_sign: ؜-
+        :nan: NaN
+        :per_mille: ؉
+        :percent_sign: ٪؜
+        :plus_sign: ؜+
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :arabext: 
+        :approximately_sign: "~"
+        :decimal: ٫
+        :exponential: ×۱۰^
+        :group: ٬
+        :infinity: ∞
+        :list: ؛
+        :minus_sign: ‎-‎
+        :nan: NaN
+        :per_mille: ؉
+        :percent_sign: ٪
+        :plus_sign: ‎+‎
+        :superscripting_exponent: ×
+        :time_separator: ٫
+      :bali: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :beng: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :bhks: :numbers.symbols.latn
+      :brah: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :cakm: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :cham: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :default: :numbers.symbols.latn
+      :deva: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :diak: :numbers.symbols.latn
+      :fullwide: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :gong: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :gonm: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :gujr: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :guru: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :hanidec: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :hmng: :numbers.symbols.latn
+      :hmnp: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :java: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :kali: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :kawi: :numbers.symbols.latn
+      :khmr: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :knda: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :lana: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :lanatham: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :laoo: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :latn: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :lepc: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :limb: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :mathbold: :numbers.symbols.latn
+      :mathdbl: :numbers.symbols.latn
+      :mathmono: :numbers.symbols.latn
+      :mathsanb: :numbers.symbols.latn
+      :mathsans: :numbers.symbols.latn
+      :mlym: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :modi: :numbers.symbols.latn
+      :mong: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :mroo: :numbers.symbols.latn
+      :mtei: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :mymr: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :mymrshan: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :mymrtlng: :numbers.symbols.latn
+      :nagm: :numbers.symbols.latn
+      :newa: :numbers.symbols.latn
+      :nkoo: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :olck: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :orya: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :osma: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :rohg: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :saur: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :segment: :numbers.symbols.latn
+      :shrd: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :sind: :numbers.symbols.latn
+      :sinh: :numbers.symbols.latn
+      :sora: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :sund: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :takr: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :talu: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :tamldec: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :telu: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :thai: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :tibt: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :tirh: :numbers.symbols.latn
+      :tnsa: :numbers.symbols.latn
+      :vaii: 
+        :approximately_sign: ≈
+        :decimal: ","
+        :exponential: E
+        :group: "."
+        :infinity: ∞
+        :list: ;
+        :minus_sign: "-"
+        :nan: NaN
+        :per_mille: ‰
+        :percent_sign: "%"
+        :plus_sign: +
+        :superscripting_exponent: ×
+        :time_separator: ":"
+      :wara: :numbers.symbols.latn
+      :wcho: :numbers.symbols.latn

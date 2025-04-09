@@ -5,11 +5,16 @@ default: &default
 
 development:
   <<: *default
-  database: docuseal_dev
+  database: faithseal_dev
+  username: faithseal_user
+  password: "1230"  # Wrap in quotes to avoid YAML parsing issues
 
 test:
   <<: *default
-  database: docuseal_test
+  database: faithseal_test
+  username: faithseal_user
+  password: "1230"  # or whatever your real password is
+
 
 production:
 <% if !ENV['DATABASE_HOST'].to_s.empty? %>

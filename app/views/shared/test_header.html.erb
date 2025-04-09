@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FaithSeal Header Test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .header {
+      background-color: #0F172A;
+      color: white;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 40px;
+    }
+    .logo span {
+      margin-left: 0.75rem;
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+    .nav {
+      display: flex;
+      gap: 2rem;
+    }
+    .nav a {
+      color: #D1D5DB;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav a:hover {
+      color: #F4C430;
+    }
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .signin {
+      color: #D1D5DB;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .signin:hover {
+      color: #F4C430;
+    }
+    .upgrade {
+      background-color: #5A4E9D;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+    .upgrade:hover {
+      background-color: #4A3E8D;
+    }
+    .content {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    @media (max-width: 768px) {
+      .nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="/images/faithseal.png" alt="FaithSeal">
+        <span>FaithSeal</span>
+      </a>
+      
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/features">Features</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      
+      <div class="buttons">
+        <a href="/sign_in" class="signin">Sign In</a>
+        <a href="/upgrade" class="upgrade">Upgrade</a>
+      </div>
+    </div>
+  </header>
+  
+  <div class="content">
+    <h1>Header Test Page</h1>
+    <p>This is a test page to check the new header with dark background (#0F172A), gold hover effect on links (#F4C430), and purple button (#5A4E9D).</p>
+  </div>
+</body>
+</html>

@@ -24,6 +24,9 @@
 <p>
 DocuSeal is an open source platform that provides secure and efficient digital document signing and processing. Create PDF forms to have them filled and signed online on any device with an easy-to-use, mobile-optimized web tool.
 </p>
+
+FaithSeal is the first Christian e-signature platform, inspired by Matthew 5:37. Built on DocuSeal, deployed with Google Cloud, and powered by Kingdom values.
+
 <h2 align="center">
   <a href="https://demo.docuseal.tech">✨ Live Demo</a>
   <span>|</span>

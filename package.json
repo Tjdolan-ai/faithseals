@@ -1,6 +1,8 @@
 {
-  "name": "docuseal",
+  "name": "faithseal",
   "private": true,
+  "description": "Let your 'Yes' be 'Yes' – Faith-based, integrity-first e-signature platform.",
+  "author": "FaithSeal Team",
   "dependencies": {
     "@babel/core": "7.21.8",
     "@babel/plugin-transform-runtime": "7.21.4",
@@ -8,7 +10,7 @@
     "@babel/runtime": "7.21.5",
     "@eid-easy/eideasy-widget": "^2.132.1",
     "@github/catalyst": "^2.0.0-beta",
-    "@hotwired/turbo": "https://github.com/docusealco/turbo#main",
+    "@hotwired/turbo": "https://github.com/faithseal/turbo#main",
     "@hotwired/turbo-rails": "^7.3.0",
     "@tabler/icons-vue": "^2.47.0",
     "autocompleter": "^9.1.0",

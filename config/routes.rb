@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
   get 'up' => 'rails/health#show'
   get 'manifest' => 'pwa#manifest'
+  get 'header-test' => 'header_test#index'
 
   devise_for :users,
              path: '/', only: %i[sessions passwords omniauth_callbacks],
